@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Égalité des Sexes - Statistiques</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="banner">
+            <h1>Statistiques Clés</h1>
+            <p>Des données qui parlent de l'importance de l'égalité des sexes</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="problemes.html">Problèmes</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="statistiques.html" class="active">Statistiques</a></li>
+                <li><a href="a-propos.html">À Propos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Introduction -->
+    <section class="intro">
+        <h2>Des Données qui Illustrent les Défis</h2>
+        <p>Découvrez les statistiques clés sur les inégalités et les progrès réalisés dans le monde entier.</p>
+    </section>
+
+    <!-- Section Statistiques en Graphiques -->
+    <section class="statistics">
+        <h2>Chiffres Importants</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <img src="images/education-gap.jpg" alt="Graphique sur l'éducation" class="stat-image">
+                <h3>Éducation</h3>
+                <p>130 millions de filles n'ont pas accès à l'éducation dans le monde.</p>
+            </div>
+            <div class="stat-item">
+                <img src="images/wage-gap.jpg" alt="Graphique sur les écarts de salaire" class="stat-image">
+                <h3>Écarts de Salaire</h3>
+                <p>Les femmes gagnent en moyenne 20 % de moins que les hommes pour un même travail.</p>
+            </div>
+            <div class="stat-item">
+                <img src="images/domestic-violence.jpg" alt="Graphique sur les violences domestiques" class="stat-image">
+                <h3>Violences Domestiques</h3>
+                <p>1 femme sur 3 subit des violences domestiques au cours de sa vie.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Cartes Interactives -->
+    <section class="interactive-map">
+        <h2>Les Données Régionales</h2>
+        <p>Explorez les inégalités de genre à travers le monde grâce à cette carte interactive.</p>
+        <div id="map" style="height: 500px;"></div>
+            <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509233!2d144.96305781550903!3d-37.8141079797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577bc3d1ec7c1e6!2sMelbourne%20Central%20Shopping%20Centre!5e0!3m2!1sen!2sau!4v1632840723321!5m2!1sen!2sau" 
+    width="100%" height="500" style="border: none;" allowfullscreen="" loading="lazy">
+</iframe>
+
+        </div>
+    </section>
+
+    <!-- Section Appel à l'Action -->
+    <section class="call-to-action">
+        <h2>Vous Voulez Changer les Statistiques ?</h2>
+        <p>Agissez avec nous pour transformer ces chiffres en opportunités égales pour tous.</p>
+        <button class="cta-button" onclick="window.location.href='solutions.html'">Découvrir les Solutions</button>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Égalité des Sexes. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
